@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 
 from database_setup import Book, Base
 
-engine = create_engine('sqlite:///books-collection.db')
+engine = create_engine("sqlite:///books-collection.db")
 
 Base.metadata.bind = engine
 
